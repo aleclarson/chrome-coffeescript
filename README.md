@@ -1,18 +1,20 @@
-CoffeeConsole
+# chrome-coffeescript v0.0.1
 
-A Chrome extension compatible with Chrome 18+ to allow writing of CoffeeScript within the Web Inspector and run it within the context of the current window, just like the built-in console.
+Write and run `coffeescript` inside your Chrome browser.
 
-Installation
+# install
 
-   * Drop the coffeeconsole.crx file into the Chrome browser. 
-   * Load the Web Inspector and click on CoffeeConsole
+![](install_chrome_extension.png)
 
-Features
+**1.** Goto `chrome://extensions`
 
-   * Syntax highlighting provided via the ACE editor http://ace.ajax.org/
-   * CoffeeScript compilation https://github.com/jashkenas/coffee-script
-   * Command+Enter or Shift+Enter to run the current script
-   * Available in the Chrome Web Store: http://snk.ms/coffeeconsole
+**2.** Enable `Developer Mode`
 
-Copyright 2012, Jonathan Snook
-Released under the MIT License
+**3.** Select the `src` directory as the "unpacked extension"
+
+# features
+
+- Syntax highlighting provided via the [ACE editor](http://ace.ajax.org)
+- [CoffeeScript](https://github.com/jashkenas/coffee-script) compilation
+- `⌘+return` or `shift+return` to run the current script
+
